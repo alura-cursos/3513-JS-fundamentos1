@@ -18,11 +18,11 @@ const ultimoNome = 'Drummond de Andrade';
 
 // Usando o operador +
 const nomeCompletoConcatenado = primeiroNome + ' ' + ultimoNome;
-console.log('Usando operador +: ', nomeCompleto);
+console.log('Usando operador +: ', nomeCompletoConcatenado);
 
 // Usando template strings
 const nomeCompletoTemplate = `${primeiroNome} ${ultimoNome}`;
-console.log(`Usando template strings: ${nomeCompleto}`);
+console.log(`Usando template strings: ${nomeCompletoTemplate}`);
 ```
 
 3) Declare duas variáveis, uma contendo um número e outra contendo uma string. Em seguida, combine-as em uma terceira variável usando template strings para montar uma frase e exiba o resultado no console.
@@ -31,7 +31,7 @@ console.log(`Usando template strings: ${nomeCompleto}`);
 const numero = 42;
 const string = 'universo';
 
-const texto = `${numero} é a resposta para a pergunta mais importante do ${universo}`;
+const texto = `${numero} é a resposta para a pergunta mais importante do ${string}`;
 console.log(texto);
 ```
 
